@@ -7,7 +7,7 @@ jx create cluster minikube -c 12 -m 16384 -s 64GB -d hyperkit \
 --no-default-environments=true \
 --default-admin-password='password' \
 --default-environment-prefix='gorpc' \
---git-api-token='a1b007ec3bf789bad5305931c677ef25e5c3e681' \
+--git-api-token='**********************' \
 --git-provider-kind='github' \
 --git-provider-url='https://github.com' \
 --git-username='sensedata1'
