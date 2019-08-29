@@ -7,12 +7,35 @@ With Jenkins-X CI/CD pipeline
 
 Build is done inside a golang container for dependancy resolution
 
-### Clone the repository
+### Create Jenkins X Cluster
 ```
-cd $SRC
-git clone git@github.com:sbadakhc/gorpc.git
-cd goroc
+
+Fork repo
+
+create ~/env.vars
+
+TOKEN="YOUR_TOKEN"
+USERNAME="YOUR__GITHUB_USERNAME"
+EMAIL="YOUR_GITHUB_EMAIL"
+
+
+cd ~/<cloned repo dir>
+./deploy.sh -c
+
+once complete
+jx open jenkins
+
+click "add pipeline"
+find your fork on github
+enter token
+
+done
+
 ```
+
+
+
+The following now happens within the Golang build container so can ignore for now
 
 ### Update the source code
 
