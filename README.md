@@ -14,7 +14,6 @@ Fork repo
 
 create ~/env.vars
 
-TOKEN="YOUR_TOKEN"
 USERNAME="YOUR__GITHUB_USERNAME"
 EMAIL="YOUR_GITHUB_EMAIL"
 
