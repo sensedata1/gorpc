@@ -1,4 +1,4 @@
 #!/bin/bash
 
 docker build -t gorpcapp .
-docker run -it gorpcapp
+docker run -i gorpcapp
