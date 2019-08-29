@@ -1,4 +1,4 @@
-rm -rf ~/.minikube ~/.kube ~/.helm
+rm -rf ~/.minikube ~/.jx ~/.helm
 
 
 
