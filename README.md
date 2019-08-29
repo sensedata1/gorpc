@@ -3,6 +3,9 @@
 ### GRPC client written in go
 
 Simple implementation of an grpc client written in go.
+With Jenkins-X CI/CD pipeline
+
+Build is done inside a golang container for dependancy resolution
 
 ### Clone the repository
 ```
