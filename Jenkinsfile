@@ -7,7 +7,7 @@ pipeline {
      steps {
        container('maven') {
          sh "docker build -t gorpcapp ."
-         sh "docker run -it gorpcapp"
+         sh "docker run -i gorpcapp"
        } 
      }  
    } 
