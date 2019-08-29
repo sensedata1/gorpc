@@ -1,0 +1,8 @@
+# Intellij
+.idea
+
+# Bazel 
+bazel-*
+
+# Gorpc
+gorpc
