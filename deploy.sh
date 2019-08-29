@@ -1,4 +1,4 @@
-source ./env.vars
+source ~/env.vars
 
 create_cluster() {
 
