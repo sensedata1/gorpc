@@ -49,7 +49,13 @@ done
 
 
 
-# The following now happens within the Golang build container so can ignore for now
+## Stop the cluster
+minikube stop
+
+## Start the cluster 
+minikube start
+kubectl config set-context $(kubectl config current-context) --namespace=jx
+jx open jenkins
 
 ### Update the source code
 
