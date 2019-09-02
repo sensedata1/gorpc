@@ -7,12 +7,22 @@ With Jenkins-X CI/CD pipeline
 
 Build is done inside a golang container for dependency resolution
 
+Prerequisites:
+
+Minikube
+Kubectl
+Jenkins-x
+
 ### Create Jenkins X Cluster
 ```
 
-Fork repo
+### Fork repo
+git clone https://github.com/sensedata1/gorpc.git
 
-create ~/env.vars
+
+### create ~/env.vars
+cd ~/
+vi env.vars
 
 USERNAME="YOUR__GITHUB_USERNAME"
 EMAIL="YOUR_GITHUB_EMAIL"
