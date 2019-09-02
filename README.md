@@ -14,12 +14,9 @@ Kubectl
 Jenkins-x
 Docker Desktop (macOS)
 
-###
-```
 
+### create ~/env.vars file
 
-### create ~/env.vars
-```
 cd ~/
 vi env.vars
 
@@ -29,7 +26,7 @@ EMAIL="YOUR_GITHUB_EMAIL"
 
 
 ### Clone repo
-```
+
 git clone repo
 
 cd ~/<cloned repo dir>
