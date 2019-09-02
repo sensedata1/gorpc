@@ -24,6 +24,7 @@ git clone https://github.com/sensedata1/gorpc.git
 cd ~/
 vi env.vars
 
+TOKEN="YOUR_GITHUB_API_TOKEN"
 USERNAME="YOUR__GITHUB_USERNAME"
 EMAIL="YOUR_GITHUB_EMAIL"
 
