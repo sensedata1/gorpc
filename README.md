@@ -13,20 +13,20 @@ Minikube
 Kubectl
 Jenkins-x
 Docker Desktop (macOS)
+```
 
-
-### create ~/env.vars file
+create ~/env.vars file
 
 cd ~/
 vi env.vars
-```
+
 
 TOKEN="YOUR_GITHUB_API_TOKEN"
 USERNAME="YOUR__GITHUB_USERNAME"
 EMAIL="YOUR_GITHUB_EMAIL"
 
 
-### Clone repo
+Clone repo
 
 git clone repo
 
