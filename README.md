@@ -19,6 +19,7 @@ Docker Desktop (macOS)
 
 cd ~/
 vi env.vars
+```
 
 TOKEN="YOUR_GITHUB_API_TOKEN"
 USERNAME="YOUR__GITHUB_USERNAME"
