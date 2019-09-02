@@ -17,7 +17,7 @@ Jenkins-x
 ```
 
 ### Fork repo
-git clone https://github.com/sensedata1/gorpc.git
+git clone <<YOUR_FORK>>
 
 
 ### create ~/env.vars
