@@ -50,15 +50,20 @@ done
 
 
 ## Stop the cluster
+```
 minikube stop
-
+```
 ## Start the cluster 
+```
 minikube start
+
 kubectl config set-context $(kubectl config current-context) --namespace=jx
+
 jx open jenkins
+```
 
 ### Update the source code
-
+```
 Modify the source code to point to the ip address or hostname of your endpoint. 
 ```
 vi main.go
