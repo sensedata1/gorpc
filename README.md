@@ -49,7 +49,7 @@ done
 
 
 
-The following now happens within the Golang build container so can ignore for now
+# The following now happens within the Golang build container so can ignore for now
 
 ### Update the source code
 
