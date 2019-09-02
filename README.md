@@ -12,15 +12,14 @@ Prerequisites:
 Minikube
 Kubectl
 Jenkins-x
+Docker Desktop (macOS)
 
-### Create Jenkins X Cluster
+###
 ```
-
-### Fork repo
-git clone <<YOUR_FORK>>
 
 
 ### create ~/env.vars
+```
 cd ~/
 vi env.vars
 
@@ -28,6 +27,10 @@ TOKEN="YOUR_GITHUB_API_TOKEN"
 USERNAME="YOUR__GITHUB_USERNAME"
 EMAIL="YOUR_GITHUB_EMAIL"
 
+
+### Clone repo
+```
+git clone repo
 
 cd ~/<cloned repo dir>
 ./deploy.sh -c
