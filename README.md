@@ -7,11 +7,14 @@ With Jenkins-X CI/CD pipeline
 
 Build is done inside a golang container for dependency resolution
 
-Prerequisites:
+#### Prerequisites:
 
 Minikube
+
 Kubectl
+
 Jenkins-x
+
 Docker Desktop (macOS)
 ```
 
